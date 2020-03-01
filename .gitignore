@@ -50,3 +50,12 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# The executables
+sep
+sph
+
+# Files generated during the simulation
+accret1.dat
+accret2.dat
+data.dat
