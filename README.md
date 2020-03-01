@@ -1,4 +1,4 @@
-# SPH High Speed Collision Simulation
+# SPH Accretion Disk Simulation
 
 This Smoothed Particle Hydrodynamics C program simulates an accretion disk around a white dwarf in a binary dwarf novae system. It is a variation of the code in https://github.com/yotagah/SPH_Accretion_Disk_Simulation. The code and all parameters are based in the references below:
 
