@@ -1,8 +1,8 @@
 #ifndef __FORCE__
 #define __FORCE__
 
-// Zerate the acceleration of all particles
-void zerateForces(particles_t *parts);
+// Reset the acceleration of all particles
+void resetForces(particles_t *parts);
 
 // Calculates the acceleration resulting from internal material forces
 void internalForce(particles_t *parts, int_pairs_t *pairs);

@@ -2,8 +2,8 @@
 #include "force.h"
 #include "vector.h"
 
-// Zerate the acceleration of all particles
-void zerateForces(particles_t *parts) {
+// Reset the acceleration of all particles
+void resetForces(particles_t *parts) {
 
 	int k, alfa;
 
