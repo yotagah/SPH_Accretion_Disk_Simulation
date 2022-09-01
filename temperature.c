@@ -53,6 +53,8 @@ void artificialHeat(particles_t *parts, int_pairs_t *pairs) {
         parts->particle[i].dedt += parts->particle[j].m * aux * (parts->particle[i].e - parts->particle[j].e);
         parts->particle[j].dedt += parts->particle[i].m * aux * (parts->particle[j].e - parts->particle[i].e);
     }
+    
+    free(divv);
 }
 
 // Dissipation of thermal energy by Beta-Cooling radiation, Rice at all 2012
